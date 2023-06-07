@@ -1,0 +1,60 @@
+.NestedGrid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, [col] 150px ) ;
+    grid-template-rows: repeat(2, [row] auto  );
+    background-color: #fff;
+    color: #444;
+  }
+
+  .NestedGrid1 {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+  }
+
+  .NestedGrid1 .NestedGrid1 {
+    background-color: #ccc;
+    color: #444;
+  }
+
+  .aa {
+    grid-column: col / span 2;
+    grid-row: row;
+  }
+
+  .bb {
+    grid-column: col 3 / span 2;
+    grid-row: row;
+  }
+
+  .cc {
+    grid-column: col / span 2;
+    grid-row: row 2;
+  }
+
+  .dd{
+    grid-column: col 3 / span 2;
+    grid-row: row 2;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ee {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .ff {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .gg {
+    grid-column: 2;
+    grid-row: 2;
+  }

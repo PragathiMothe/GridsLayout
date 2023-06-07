@@ -1,0 +1,12 @@
+.Grid1{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+}
+.Grid{
+    background-color: rgb(14, 13, 13);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}

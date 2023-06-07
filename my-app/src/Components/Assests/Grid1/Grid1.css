@@ -1,0 +1,36 @@
+.sidebar1 {
+    grid-area: sidebar;
+  }
+
+  .content1 {
+    grid-area: content;
+  }
+
+  .header1 {
+    grid-area: header;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+
+
+
+.Grid1{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 120px 160px 250px;
+    grid-template-areas:
+    "....... header header"
+    "sidebar content content"
+    "footer  footer  footer";
+    background-color: #fff;
+    color: #444;
+}
+.Grid{
+    background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}

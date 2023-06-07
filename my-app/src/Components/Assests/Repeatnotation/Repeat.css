@@ -1,0 +1,36 @@
+.repeat{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, [col] 100px ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    background-color: #fff;
+    color: #444;
+}
+.repeat1{
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+.aa {
+    grid-column: col 2;
+    grid-row: row ;
+  }
+  .bb {
+    grid-column: col 3 / span 2 ;
+    grid-row: row ;
+  }
+  .cc {
+    grid-column: col ;
+    grid-row: row 2 ;
+  }
+  .dd {
+    grid-column: col 2 / span 3 ;
+    grid-row: row 2 ;
+  }
+
+  .ee {
+    grid-column: col / span 4;
+    grid-row: row 3;
+  }

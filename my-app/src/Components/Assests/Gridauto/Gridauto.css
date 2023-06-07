@@ -1,0 +1,57 @@
+.Gridauto1 {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.Gridauto1:nth-child(odd) {
+  background-color: #ccc;
+  color: #000;
+}
+
+  .Gridauto {
+    width: 680px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 100px);
+  } 
+  .Gridauto1 {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  
+  .Gridauto1:nth-child(odd) {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+    .Gridauto {
+      width: 608px;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(6, 100px);
+    }
+    .Gridauto{
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  
+  .Gridauto1:nth-child(odd) {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+    .Gridauto {
+      width: 680px;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(6, 100px);
+    }
